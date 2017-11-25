@@ -27,6 +27,7 @@ p {
 }
 
 a {
+    text-decoration: none;
     color: #ff6f21 !important;
 }
 
