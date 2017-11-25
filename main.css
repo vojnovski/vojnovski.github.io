@@ -13,6 +13,10 @@ p {
     letter-spacing: 0.5px;  
 }
 
+.intro {
+    text-align: center;
+}
+
 .intro-h2 {
     font-family: 'Raleway';
     font-weight: 200;
@@ -26,9 +30,16 @@ a {
     color: #ff6f21 !important;
 }
 
-i {
-    color: red;
-}
+.heart{
+    background-image: url("./heart.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    height: 17px;
+    width: 17px;
+    top: 0;
+  }
 
 .p1 {
     margin-bottom: 0;
