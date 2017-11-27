@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://vv.mk/sitemap.txt
+Sitemap: https://vv.mk/sitemap.xml
