@@ -25,11 +25,18 @@
 					url('raleway-v12-latin-regular.woff2') format('woff2'),
 					url('raleway-v12-latin-regular.woff') format('woff');
 			}
+			@media (prefers-color-scheme: dark) {
+				body {
+					color: #ddd;
+					background-color: #222;
+				}
+				a, span.linklike {text-decoration: none; color: #0083a7}
+			}
 			h1, h2, p {font-family: 'Raleway', sans-serif; text-align: center}
 			h1 {font-weight: 200}
 			h2 {font-size: 1em; font-weight: normal}
 			hr {max-width: 70px; border-width: 0.5px}
-			a, span.linklike {text-decoration: none; color: #002ea7}
+			a, span.linklike {text-decoration: none; color: #002fa7}
 			img.emoji {height: 1em; width: 1em; margin: 0 .05em 0 .1em; vertical-align: -0.1em;}
 		</style>
 	</head>
