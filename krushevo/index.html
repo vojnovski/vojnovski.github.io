@@ -1,5 +1,8 @@
-<html>
-    <head>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="loader.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
@@ -20,13 +23,13 @@
             }
         </style>
 
-        <title>Amazon Kinesis Video Streams Media Viewer</title>
+        <title>Крушево</title>
     </head>
     <body>
         <div class="container mb-3">
             <div class="row mt-3 mb-3">
                 <div class="col-md-12">
-                    <h1>Крушево Лајв</h1>
+                    <h1>Крушево Live</h1>
                 </div>
             </div>
             <div class="row loader"></div>
@@ -41,17 +44,16 @@
 
                         </div>
 
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input id="secretAccessKey" type="password" class="form-control form-control-sm" placeholder="Внеси ја шифрата тука"/>
+                        </div>
+                        <button id="start" type="submit" class="btn btn-primary">Пушти</button>
                         <h3 style="margin-top: 20px;">Logs</h3>
                         <div class="card bg-light mb-3">
                             <pre id="logs" class="card-body text-monospace" style="font-family: monospace; white-space: pre-wrap;"></pre>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                    <div class="form-group">
-                            <label>Шифра</label>
-                            <input id="secretAccessKey" type="password" class="form-control form-control-sm"/>
-                        </div>
-                        <button id="start" type="submit" class="btn btn-primary">Пушти</button>
                     </div>
                 </div>
             </div>
